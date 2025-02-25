@@ -1,36 +1,3 @@
-TRƯỜNG ĐẠI HỌC THỦY LỢI
-
-**KHOA CÔNG NGHỆ THÔNG TIN**
-
-`  `![A blue and white logo
-
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.001.png)
-
-**BÀI TẬP LỚN**
-
-HỌC PHẦN: KHAI PHÁ DỮ LIỆU
-
-
-
-**ĐỀ TÀI:**
-
-**KHAI PHÁ DỮ LIỆU VỀ CÁC YẾU TỐ ẢNH HƯỞNG ĐẾN HIỆU SUẤT HỌC TẬP CỦA HỌC SINH BẰNG PHƯƠNG PHÁP PHÂN LỚP**
-
-`   `**Giảng  viên hướng dẫn: Trần Mạnh Tuấn**
-
-`   `Nhóm sinh viên thực hiện:
-
-`   `1. Nguyễn Tiến Hưng, 2151062793
-
-`   `2.	Nguyễn Thị Diệu Minh, 2151061174
-
-`   `3. Ngô Thị Út Thương, 2151062880
-
-4\. Triệu Minh Thảo, 2151062871
-
-
-
-**Hà Nội, năm 2024**
 # MỤC LỤC
 [**LỜI CẢM ƠN**	3](#_toc181607427)
 
@@ -111,17 +78,14 @@ Ngày nay, việc ứng dụng công nghệ thông tin đã trở nên phổ bi�
 
 1. <a name="_toc181607430"></a>**Quy trình khai phá tri thức**
 
-   ![A diagram of a flowchart
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 002](https://github.com/user-attachments/assets/db54a6fd-6a25-4beb-9d18-53847f8eaa5f)
 
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.002.png)
 
 1. <a name="_toc181607431"></a>**Mô tả dữ liệu ban đầu**
 - Nguồn dữ liệu: [Student Performance Factors](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors?fbclid=IwY2xjawGAPa5leHRuA2FlbQIxMAABHRgjr52K0UOX2njXJkavVyr2oTw4chpgL53TU13HBR-mjNbxVHQKxHm_ag_aem_Cz6Yu8OLv5bpJmj04DPLOw)
 - Dữ liệu gồm 6680 vector cung cấp thông tin tổng quan về những yếu tố ảnh hưởng đến kết quả thi của học sinh. Bộ dữ liệu bao gồm thông tin về thói quen học tập, sự tham gia của phụ huynh và các khía cạnh khác ảnh hưởng đến thnàh công trong học tập của học sinh:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.003.png)
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 003](https://github.com/user-attachments/assets/b231e63b-6324-427f-9904-7b17675056b4)
 
 - Mô tả cột:
 
@@ -159,17 +123,14 @@ Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d
 - Việc xử lý dữ liệu thiếu là một phần quan trọng trong quá trình tiền xử lý dữ liệu. Có rất nhiều nguyên nhân có thể gây ra sự thiếu dữ liệu như: lỗi ghi dữ liệu, vấn đề kỹ thuật trong quá trình thu thập dữ liệu, …
 - Đối với tập dữ liệu trên, ở các cột “**Teacher\_Quality**”, “**Parental\_Education\_Level**”, “**Distance\_from\_Home**” có các dữ liệu bị thiếu. 
 
-![A screenshot of a computer
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 004](https://github.com/user-attachments/assets/761db3b6-a605-4415-a833-9ed4d77d13e9)
 
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.004.png)
 
-![A screenshot of a computer
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 005](https://github.com/user-attachments/assets/c14c48c7-6a11-4cff-b8b3-b17e5476292b)
 
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.005.png)
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 006](https://github.com/user-attachments/assets/afc83ede-a20f-4e09-9a16-6964732e8b19)
 
-![A screenshot of a computer
 
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.006.png)
 
 Ta tiến hành xử lý các dữ liệu bị thiếu bằng cách lấy giá trị trung bình của các cột dữ liệu thiếu đó để gán cho ô dữ liệu bị thiếu bằng cách: 
 
@@ -177,7 +138,8 @@ Ta tiến hành xử lý các dữ liệu bị thiếu bằng cách lấy giá t
 
 - Dữ liệu 3 cột sau khi loại bỏ các dữ liệu bị thiếu:
 
-![C:\Users\ADMIN\Pictures\Screenshots\Screenshot 2024-10-28 213603.png](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.007.png)
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 007](https://github.com/user-attachments/assets/2a4d053a-9ecc-4d01-bb06-6f7e926d7f7a)
+
 
 ![C:\Users\ADMIN\Pictures\Screenshots\Screenshot 2024-10-28 214244.png]
 
@@ -189,7 +151,8 @@ Ta tiến hành xử lý các dữ liệu bị thiếu bằng cách lấy giá t
 
 `	`**+	Filter -> Unsupervised -> Attribute -> NumericToNominal -> Apply**
 
-![C:\Users\ADMIN\Pictures\Screenshots\Screenshot 2024-10-28 221223.png](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.009.png)
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 009](https://github.com/user-attachments/assets/2aa729a0-25df-4418-9121-80a3b3c8da20)
+
 
 1. **Xử lý dữ liệu không nhất quán**
 1. <a name="_toc181607435"></a>**Tích hợp dữ liệu**
@@ -202,45 +165,44 @@ Ta tiến hành xử lý các dữ liệu bị thiếu bằng cách lấy giá t
   - Điểm < 85 gán nhãn 3 (tương ứng với B)
   - Điềm >85 gán nhãn 4 (tương ứng với A)
 - ** Thực hiện gán nhãn trên Weka cách sử dụng Filter weka.filters.unsupervised.attribute.MathExpression với expression là câu lệnh ifelse:
+- 
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 010](https://github.com/user-attachments/assets/2fd7a805-c167-4d0e-96bd-b97c0467d267)
 
-![A screenshot of a computer
 
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.010.png)
 
 - Chuyển dữ liệu cột Exam\_Score từ kiểu **Numeric** thành kiểu **Nominal bằng filter: weka.filters.unsupervised.attribute.NumericToNominal**
 
-![A screenshot of a computer
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 011](https://github.com/user-attachments/assets/e21522f9-ed98-4d59-9a83-b64a434116f7)
 
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.011.png)
 
 - Dữ liệu cột Exam\_Score sau khi tiến hành chuyển đổi thành các nhãn và rời rạc:
 
-![A screenshot of a computer screen
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 012](https://github.com/user-attachments/assets/6db0f5a2-41bc-49e1-a35e-617cb7e135d6)
 
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.012.png)
 
 - Thực hiện tương tự với thuộc tính Previos\_Score ta thu được dữ liệu cột Previos\_Score sau khi nhóm
 
-![A screenshot of a graph
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 013](https://github.com/user-attachments/assets/84e59ba8-dfd7-4462-9b15-9b77e528fadf)
 
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.013.png)
 
 - Đối với thuộc tính Hour\_Studies ta cũng sẽ chia các giá trị vào 3 nhóm:
   - Low (0 – 20): thay thế là 0
   - Medium (20 – 30): thay thế là 1
   - High ( > 30): thay thế là 2
-- ![A screenshot of a graph
 
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.014.png)Thuộc tính Hours\_Studied sau khi nhóm: 
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 014](https://github.com/user-attachments/assets/dec34cc5-00ea-408f-97b7-a1bd679ec1bb)
 
-![C:\Users\ADMIN\Pictures\Screenshots\Screenshot 2024-11-01 211155.png](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.015.png)
+Thuộc tính Hours\_Studied sau khi nhóm: 
 
-- ![A screenshot of a graph
-
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.016.png)![C:\Users\ADMIN\Pictures\Screenshots\Screenshot 2024-11-01 211339.png](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.017.png)Chia dữ liệu thuộc tính Attendance vào 3 nhóm: 0 - Low ( 0 - 70), 1 – Medium (70 – 85), 2 – High (85 - 100)
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 015](https://github.com/user-attachments/assets/5afb7a3c-26a4-449b-a321-781a646e1bc3)
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 016](https://github.com/user-attachments/assets/b1ec60f0-a6a5-4cc2-a409-a8efbf65bd2a)
 
 
 
+
+Chia dữ liệu thuộc tính Attendance vào 3 nhóm: 0 - Low ( 0 - 70), 1 – Medium (70 – 85), 2 – High (85 - 100)
+
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 017](https://github.com/user-attachments/assets/5c29f0aa-7d14-4294-963d-1b4da8276ac1)
 
 
 
@@ -248,9 +210,8 @@ Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d
 
 - Chia dữ liệu thuộc tính Sleep\_Hours vào 3 nhóm: 0 - Low ( 0 - 6), 1 – Medium (6 – 8), 2 – High ( >8 )
 
-  ![A screenshot of a graph
+![Aspose Words 94eb7e2c-1fd4-42a5-8438-2f0f5d735b41 019](https://github.com/user-attachments/assets/8d1905aa-a4b3-4d27-8137-1039649f9933)
 
-Description automatically generated](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.018.png)![C:\Users\ADMIN\Pictures\Screenshots\Screenshot 2024-11-01 214119.png](Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.019.png)
 
 - ![A screenshot of a graph
 
@@ -517,5 +478,6 @@ Trong quá trình hoàn thành đề tài, dù nhóm em đã cố gắng tìm hi
 [4] <https://www.geeksforgeeks.org/multinomial-naive-bayes/>
 
 [5] <https://machinelearningcoban.com/2018/01/14/id3/>
+
 
 [C:\Users\ADMIN\Pictures\Screenshots\Screenshot 2024-10-28 214244.png]: Aspose.Words.94eb7e2c-1fd4-42a5-8438-2f0f5d735b41.008.png
